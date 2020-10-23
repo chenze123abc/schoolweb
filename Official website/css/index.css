@@ -1,0 +1,94 @@
+/********************************** 通用begin ********************/
+
+body {
+    color: black;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/******************************************** 通用end ************************/
+
+
+/************************** 头部 begin**************************************/
+#gl_header .top-bar {
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid #000;
+}
+
+/* top-bar end*/
+.navbar-brand {
+    padding-right: 10px;
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+#gl_header .navbar-nav>li>a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/******************************** 头部end ****************************************/
+/******************************** 内容begin ****************************************/
+#gl_content {
+    margin-top: 20px;
+}
+
+#gl_content .carousel-item>img {
+    height: 260px;
+    width: 360px;
+}
+
+.media {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.media>img {
+    height: 78px;
+    width: 110px;
+}
+
+.content-nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.news>img {
+    width: 320px;
+    height: 320px;
+}
+
+.lunbotu {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+/******************************** 内容end ****************************************/
+/******************************** 尾部begin ****************************************/
+
+#gl_footer {
+    width: 100%;
+    background-color: #ccc;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/******************************** 尾部end ****************************************/
